@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		11D1EC7824DAEE720040C551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC7724DAEE720040C551 /* AppDelegate.swift */; };
 		11D1EC7A24DAEE720040C551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC7924DAEE720040C551 /* SceneDelegate.swift */; };
-		11D1EC7C24DAEE720040C551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC7B24DAEE720040C551 /* ViewController.swift */; };
 		11D1EC7F24DAEE720040C551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1EC7D24DAEE720040C551 /* Main.storyboard */; };
 		11D1EC8124DAEE740040C551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D1EC8024DAEE740040C551 /* Assets.xcassets */; };
 		11D1EC8424DAEE740040C551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1EC8224DAEE740040C551 /* LaunchScreen.storyboard */; };
+		11D1EC8E24DAEEA60040C551 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC8D24DAEEA60040C551 /* IntroductionViewController.swift */; };
+		11D1EC9024DAEEBB0040C551 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC8F24DAEEBB0040C551 /* QuestionsViewController.swift */; };
+		11D1EC9224DAEECF0040C551 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC9124DAEECF0040C551 /* ResultsViewController.swift */; };
+		11D1EC9424DAEF000040C551 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC9324DAEF000040C551 /* Question.swift */; };
+		11D1EC9624DAEF130040C551 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC9524DAEF130040C551 /* ResponseType.swift */; };
+		11D1EC9824DAEF290040C551 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC9724DAEF290040C551 /* Answer.swift */; };
+		11D1EC9A24DAEF380040C551 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1EC9924DAEF380040C551 /* AnimalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11D1EC7424DAEE720040C551 /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D1EC7724DAEE720040C551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D1EC7924DAEE720040C551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11D1EC7B24DAEE720040C551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11D1EC7E24DAEE720040C551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11D1EC8024DAEE740040C551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D1EC8324DAEE740040C551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D1EC8524DAEE740040C551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D1EC8D24DAEEA60040C551 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		11D1EC8F24DAEEBB0040C551 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		11D1EC9124DAEECF0040C551 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		11D1EC9324DAEF000040C551 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		11D1EC9524DAEF130040C551 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		11D1EC9724DAEF290040C551 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		11D1EC9924DAEF380040C551 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		11D1EC7624DAEE720040C551 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				11D1EC7724DAEE720040C551 /* AppDelegate.swift */,
-				11D1EC7924DAEE720040C551 /* SceneDelegate.swift */,
-				11D1EC7B24DAEE720040C551 /* ViewController.swift */,
-				11D1EC7D24DAEE720040C551 /* Main.storyboard */,
-				11D1EC8024DAEE740040C551 /* Assets.xcassets */,
-				11D1EC8224DAEE740040C551 /* LaunchScreen.storyboard */,
-				11D1EC8524DAEE740040C551 /* Info.plist */,
+				11D1EC9F24DAEFD80040C551 /* SupportingFiles */,
+				11D1EC9B24DAEF780040C551 /* ViewControllers */,
+				11D1EC9C24DAEF9C0040C551 /* Models */,
+				11D1EC9D24DAEFB20040C551 /* Storyboard */,
+				11D1EC9E24DAEFC40040C551 /* Sourses */,
 			);
 			path = PersonalQuiz;
+			sourceTree = "<group>";
+		};
+		11D1EC9B24DAEF780040C551 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11D1EC8D24DAEEA60040C551 /* IntroductionViewController.swift */,
+				11D1EC8F24DAEEBB0040C551 /* QuestionsViewController.swift */,
+				11D1EC9124DAEECF0040C551 /* ResultsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		11D1EC9C24DAEF9C0040C551 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11D1EC9324DAEF000040C551 /* Question.swift */,
+				11D1EC9524DAEF130040C551 /* ResponseType.swift */,
+				11D1EC9724DAEF290040C551 /* Answer.swift */,
+				11D1EC9924DAEF380040C551 /* AnimalType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11D1EC9D24DAEFB20040C551 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				11D1EC7D24DAEE720040C551 /* Main.storyboard */,
+				11D1EC8224DAEE740040C551 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		11D1EC9E24DAEFC40040C551 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				11D1EC8024DAEE740040C551 /* Assets.xcassets */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		11D1EC9F24DAEFD80040C551 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11D1EC7724DAEE720040C551 /* AppDelegate.swift */,
+				11D1EC7924DAEE720040C551 /* SceneDelegate.swift */,
+				11D1EC8524DAEE740040C551 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D1EC7C24DAEE720040C551 /* ViewController.swift in Sources */,
+				11D1EC8E24DAEEA60040C551 /* IntroductionViewController.swift in Sources */,
+				11D1EC9024DAEEBB0040C551 /* QuestionsViewController.swift in Sources */,
+				11D1EC9A24DAEF380040C551 /* AnimalType.swift in Sources */,
+				11D1EC9824DAEF290040C551 /* Answer.swift in Sources */,
 				11D1EC7824DAEE720040C551 /* AppDelegate.swift in Sources */,
 				11D1EC7A24DAEE720040C551 /* SceneDelegate.swift in Sources */,
+				11D1EC9424DAEF000040C551 /* Question.swift in Sources */,
+				11D1EC9624DAEF130040C551 /* ResponseType.swift in Sources */,
+				11D1EC9224DAEECF0040C551 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4E77TZ5DGN;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4E77TZ5DGN;
-				INFOPLIST_FILE = PersonalQuiz/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
